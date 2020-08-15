@@ -1,10 +1,10 @@
 {
   "name": "factory_backbone",
-  "version": "0.17.3",
-  "factorio_version": "0.17",
-  "title": "Factory Backbone",
-  "author": "anarchyinc",
-  "contact": "www.evilangel.com",
+  "version": "0.18.0",
+  "factorio_version": "1.0",
+  "title": "Factory Backbone 1.0",
+  "author": "Jacob Greenleaf",
+  "contact": "github.com/jacobgreenleaf/factorio-backbone",
   "description": "Lights, Power, Logistics. The essential backbone to any factory",
   "dependencies": ["base >= 0.17.0","? boblibrary >= 0.17.0","? boblogistics >= 0.17.0", "? anarchy >= 0.17.0"]
 } 
