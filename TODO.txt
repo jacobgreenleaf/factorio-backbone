@@ -1,0 +1,29 @@
+Pull backbone from sandbox testing mod and turn into own mod = done
+Research: 
+late game level; need roboports, optics, substations unlocked
+"electric-energy-distribution-2","optics","logistic-robotics","construction-robotics", "advanced-electronics-2"
+Bob's logistics changes tech tree levels; need detect script to comply with him.
+"bob-robo-modular-1" needed for roboport, else you would have logistic network before first roboport.
+done
+
+
+power poles:
+1x1 backbone = done
+2x2 for rail system = small inventory.. 1 slot each, try to add radar function
+
+logistic zone + power + lamp = need graphics
+Log+power+lamp+radar (no scan on radar for fps) = reuse same graphics
+
+selection_box = {{-0.5, (-0.5)-0.5 }, {0.5, (0.5)-0.5}},
+
+
+selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+Maths:
+shift 1=32 pixels
+x,y
+x= +right, -left
+y= +down, -up
+
+Please note that the left and top border must be smaller or equal to 0 and the right and bottom border must be greater or equal to 0.
+selection_box = {{Left border, Top border}, {Right border, Bottom border}},
+selection_box = {{ (- Width / 2) + offset, - Height / 2 }, { (Width / 2) + offset, Height / 2 }},
