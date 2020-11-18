@@ -5,7 +5,7 @@ data:extend(
   {
     type = "technology",
     name = "factory-backbone",
-    icon = "__factory_backbone__/graphics/icons/backbone-icon-128.png",
+    icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon-128.png",
 	icon_size = 128,
     effects =
     {
@@ -53,7 +53,7 @@ data:extend(
     },
     result = "factory-backbone",
 
-    icon = "__factory_backbone__/graphics/icons/backbone-icon.png",
+    icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon.png",
 
   },
   
@@ -72,7 +72,7 @@ data:extend(
     },
     result = "factory-backbone-2",
 
-    icon = "__factory_backbone__/graphics/icons/backbone-icon-2.png",
+    icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon-2.png",
 
   }
   
@@ -85,7 +85,7 @@ data:extend(
   {
     type = "item",
     name = "factory-backbone",
-    icon = "__factory_backbone__/graphics/icons/backbone-icon.png",
+    icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon.png",
     icon_size = 32,
 	--flags = {"goes-to-quickbar"},
     subgroup = "energy-pipe-distribution",
@@ -96,7 +96,7 @@ data:extend(
   {
 		type = "item",
 		name = "backbone-light",
-		icon = "__factory_backbone__/graphics/icons/backbone-icon.png",
+		icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon.png",
 		icon_size = 32,
 		flags = {"hidden"},
 		subgroup = "energy",
@@ -107,7 +107,7 @@ data:extend(
 	{
 		type = "item",
 		name = "backbone-logistics",
-		icon = "__factory_backbone__/graphics/icons/backbone-icon.png",
+		icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon.png",
 		icon_size = 32,
 		flags = {"hidden"},
 		subgroup = "energy",
@@ -118,7 +118,7 @@ data:extend(
 	{
 	    type = "item",
     name = "factory-backbone-2",
-    icon = "__factory_backbone__/graphics/icons/backbone-icon-2.png",
+    icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon-2.png",
     icon_size = 32,
 	--flags = {"goes-to-quickbar"},
     subgroup = "energy-pipe-distribution",
@@ -129,7 +129,7 @@ data:extend(
   {
 		type = "item",
 		name = "backbone-light-2",
-		icon = "__factory_backbone__/graphics/icons/backbone-icon-2.png",
+		icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon-2.png",
 		icon_size = 32,
 		flags = {"hidden"},
 		subgroup = "energy",
@@ -140,7 +140,7 @@ data:extend(
 	{
 		type = "item",
 		name = "backbone-logistics-2",
-		icon = "__factory_backbone__/graphics/icons/backbone-icon-2.png",
+		icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon-2.png",
 		icon_size = 32,
 		flags = {"hidden"},
 		subgroup = "energy",
@@ -151,7 +151,7 @@ data:extend(
 	{
 		type = "item",
 		name = "backbone-radar",
-		icon = "__factory_backbone__/graphics/icons/backbone-icon-2.png",
+		icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon-2.png",
 		icon_size = 32,
 		flags = {"hidden"},
 		subgroup = "energy",
@@ -168,7 +168,7 @@ data:extend(
   {
     type = "electric-pole",
     name = "factory-backbone",
-	icon = "__factory_backbone__/graphics/icons/backbone-icon.png",
+	icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon.png",
     icon_size = 32,
 	flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 1.5, result = "factory-backbone"},
@@ -184,7 +184,7 @@ data:extend(
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 1.0 },
     pictures =
     {
-      filename = "__factory_backbone__/graphics/entity/backbone.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/backbone.png",
       priority = "extra-high",
       width = 256,
       height = 256,
@@ -223,7 +223,7 @@ data:extend(
   {
     type = "lamp",
     name = "backbone-light",
-    icon = "__factory_backbone__/graphics/icons/backbone-icon.png",
+    icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon.png",
     icon_size = 32,
 	flags = {"placeable-neutral","placeable-off-grid", "not-blueprintable"},
     minable = {hardness = 0.2, mining_time = 5},
@@ -243,7 +243,7 @@ data:extend(
     glow_color_intensity = 0.135,
     picture_off =
     {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       priority = "medium",
       width = 1,
       height = 1,
@@ -253,7 +253,7 @@ data:extend(
     },
     picture_on =
     {
-      filename = "__factory_backbone__/graphics/entity/backbonelighton.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/backbonelighton.png",
       priority = "high",
       width = 256,
       height = 256,
@@ -294,7 +294,7 @@ data:extend(
   {
     type = "roboport",
     name = "backbone-logistics",
-    icon = "__factory_backbone__/graphics/icons/backbone-icon.png",
+    icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon.png",
     icon_size = 32,
 	flags = {"placeable-neutral", "placeable-off-grid", "not-blueprintable"},
     minable = {hardness = 0.2, mining_time = 5},
@@ -324,7 +324,7 @@ data:extend(
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 1.0 },
     base =
     {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       width = 1,
       height = 1,
 --      shift = {1, -0.75}
@@ -332,7 +332,7 @@ data:extend(
     },
     base_animation =
     {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       priority = "medium",
       width = 1,
       height = 1,
@@ -340,28 +340,28 @@ data:extend(
     },
     base_patch =
     {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       width = 1,
       height = 1,
       frame_count = 1
     },
     door_animation_up =
     {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       width = 1,
       height = 1,
       frame_count = 1
     },
     door_animation_down =
     {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       width = 1,
       height = 1,
       frame_count = 1
     },
     recharging_animation =
     {
-       filename = "__factory_backbone__/graphics/entity/blank.png",
+       filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       width = 1,
       height = 1,
       frame_count = 1
@@ -397,7 +397,7 @@ data:extend(
   {
     type = "electric-pole",
     name = "factory-backbone-2",
-	icon = "__factory_backbone__/graphics/icons/backbone-icon-2.png",
+	icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon-2.png",
     icon_size = 32,
 	flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 1.5, result = "factory-backbone-2"},
@@ -414,7 +414,7 @@ data:extend(
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 1.0 },
     pictures =
     {
-      filename = "__factory_backbone__/graphics/entity/backbone-2.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/backbone-2.png",
       priority = "extra-high",
       width = 256,
       height = 256,
@@ -453,7 +453,7 @@ data:extend(
   {
     type = "lamp",
     name = "backbone-light-2",
-    icon = "__factory_backbone__/graphics/icons/backbone-icon-2.png",
+    icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon-2.png",
     icon_size = 32,
 	flags = {"placeable-neutral","placeable-off-grid", "not-blueprintable"},
     minable = {hardness = 0.2, mining_time = 5},
@@ -474,7 +474,7 @@ data:extend(
     glow_color_intensity = 0.135,
     picture_off =
     {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       priority = "medium",
       width = 1,
       height = 1,
@@ -484,7 +484,7 @@ data:extend(
     },
     picture_on =
     {
-      filename = "__factory_backbone__/graphics/entity/backbonelighton.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/backbonelighton.png",
       priority = "high",
       width = 256,
       height = 256,
@@ -525,7 +525,7 @@ data:extend(
   {
     type = "roboport",
     name = "backbone-logistics-2",
-    icon = "__factory_backbone__/graphics/icons/backbone-icon-2.png",
+    icon = "__factory_backbone_jacobg__/graphics/icons/backbone-icon-2.png",
     icon_size = 32,
 	flags = {"placeable-neutral", "placeable-off-grid", "not-blueprintable"},
     minable = {hardness = 0.2, mining_time = 5},
@@ -556,7 +556,7 @@ data:extend(
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 1.0 },
     base =
     {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       width = 1,
       height = 1,
 --      shift = {1, -0.75}
@@ -564,7 +564,7 @@ data:extend(
     },
     base_animation =
     {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       priority = "medium",
       width = 1,
       height = 1,
@@ -572,28 +572,28 @@ data:extend(
     },
     base_patch =
     {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       width = 1,
       height = 1,
       frame_count = 1
     },
     door_animation_up =
     {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       width = 1,
       height = 1,
       frame_count = 1
     },
     door_animation_down =
     {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       width = 1,
       height = 1,
       frame_count = 1
     },
     recharging_animation =
     {
-       filename = "__factory_backbone__/graphics/entity/blank.png",
+       filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       width = 1,
       height = 1,
       frame_count = 1
@@ -660,7 +660,7 @@ data:extend(
     energy_usage = "30kW",
     integration_patch =
     {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       priority = "low",
       width = 1,
       height = 1,
@@ -668,7 +668,7 @@ data:extend(
       shift = util.by_pixel(1.5, 4),
       hr_version =
       {
-        filename = "__factory_backbone__/graphics/entity/blank.png",
+        filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
         priority = "low",
         width = 1,
         height = 1,
@@ -682,14 +682,14 @@ data:extend(
       layers =
       {
         {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       width = 1,
       height = 1,
 	  direction_count = 1,
       frame_count = 1
     },
         {
-      filename = "__factory_backbone__/graphics/entity/blank.png",
+      filename = "__factory_backbone_jacobg__/graphics/entity/blank.png",
       width = 1,
       height = 1,
 	  direction_count = 1,
